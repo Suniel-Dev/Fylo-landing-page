@@ -69,14 +69,14 @@ h1 {
   padding: 3rem 0;
 }
 
-.first {
+.input1 {
   margin: 3rem 0;
   padding: 1rem 2rem;
   box-shadow: 0 0 2px blue;
   transition: all 0.5s;
 }
 
-.first:hover {
+.input1:hover {
   box-shadow: 0 0 10px blue;
 }
 
@@ -100,13 +100,13 @@ h1 {
   object-fit: cover;
 }
 
-main {
+.container2 {
   background-image: url(./images/bg-curve-desktop.svg);
   background-position: center;
   background-size: cover;
 }
 
-.container2 {
+.first {
   width: 80%;
   margin: 0 auto;
   display: flex;
@@ -159,4 +159,64 @@ h2 {
 .name img {
   width: 50%;
   border-radius: 50%;
+}
+
+.container3 {
+  background-color: purple;
+}
+
+.second {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 80%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 5rem 0;
+}
+
+.text4 {
+  font-size: 1.5rem;
+  color: white;
+  padding: 3rem 6rem;
+}
+
+h3 {
+  font-size: 2.5rem;
+  padding: 3rem 0;
+}
+
+.inputs {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  padding: 5rem;
+}
+
+.input2 {
+  padding: 1rem 9rem;
+  transition: all 0.5s;
+}
+
+.input2:hover {
+  box-shadow: 0 0 20px black;
+  background-color: transparent;
+  color: white;
+}
+
+.btn2 {
+  margin: 2rem 9rem 0 0;
+  padding: 1rem 2rem;
+  border: transparent;
+  box-shadow: 0 0 3px blue;
+  background-color: rgb(57, 188, 232);
+  transition: all 0.5s;
+}
+
+.btn2:hover {
+  cursor: pointer;
+  box-shadow: 0 0 10px black;
+  border-radius: 1rem;
+  background-color: transparent;
+  color: white;
 }
