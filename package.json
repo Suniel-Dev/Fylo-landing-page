@@ -1,0 +1,26 @@
+{
+  "name": "fylo-landing-page",
+  "version": "1.0.0",
+  "description": "Creating a landing page for Fylo.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Suniel-Dev/Fylo-landing-page.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Suniel-Dev/Fylo-landing-page/issues"
+  },
+  "homepage": "https://github.com/Suniel-Dev/Fylo-landing-page#readme",
+  "devDependencies": {
+    "stylelint": "^13.13.1",
+    "stylelint-config-standard": "^21.0.0",
+    "stylelint-csstree-validator": "^1.9.0",
+    "stylelint-scss": "^3.21.0"
+  }
+}
