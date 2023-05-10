@@ -28,8 +28,8 @@ a {
 }
 
 .logo img {
-    object-fit: cover;
-    width: 80%;
+  object-fit: cover;
+  width: 80%;
 }
 
 .nav-items {
@@ -48,4 +48,53 @@ a {
 .items:hover {
   text-shadow: 0 0 10px blue;
   font-size: 1.8rem;
+}
+
+.container1 {
+  width: 80%;
+  max-width: 1200px;
+  margin: 8rem auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.text1 {
+  padding: 0 4rem;
+  font-size: 2rem;
+}
+
+h1 {
+  font-size: 3rem;
+  padding: 3rem 0;
+}
+
+.first {
+  margin: 3rem 0;
+  padding: 1rem 2rem;
+  box-shadow: 0 0 2px blue;
+  transition: all 0.5s;
+}
+
+.first:hover {
+  box-shadow: 0 0 10px blue;
+}
+
+.btn1 {
+  padding: 1rem 2rem;
+  border: transparent;
+  box-shadow: 0 0 3px blue;
+  background-color: lightblue;
+  transition: all 0.5s;
+}
+
+.btn1:hover {
+  cursor: pointer;
+  box-shadow: 0 0 10px blue;
+  border-radius: 1rem;
+}
+
+.img1 img {
+  width: 100%;
+  object-fit: cover;
 }
