@@ -84,7 +84,7 @@ h1 {
   padding: 1rem 2rem;
   border: transparent;
   box-shadow: 0 0 3px blue;
-  background-color: lightblue;
+  background-color: rgb(57, 188, 232);
   transition: all 0.5s;
 }
 
@@ -92,6 +92,7 @@ h1 {
   cursor: pointer;
   box-shadow: 0 0 10px blue;
   border-radius: 1rem;
+  background-color: lightblue;
 }
 
 .img1 img {
