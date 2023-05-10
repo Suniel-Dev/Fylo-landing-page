@@ -259,3 +259,90 @@ footer {
   font-size: 2rem;
   text-shadow: 0 0 3px white;
 }
+
+@media (max-width: 600px) {
+  .nav-bar {
+    display: block;
+  }
+
+  .nav-bar::after {
+    content: "☰";
+    font-size: 3rem;
+  }
+
+  .nav-items {
+    display: none;
+    padding: 3rem;
+    line-height: 3rem;
+  }
+
+  .nav-bar:focus .nav-items {
+    display: block;
+    position: absolute;
+  }
+
+  .container1 {
+    display: block;
+    text-align: center;
+  }
+
+  .text1 {
+    padding: 0;
+  }
+
+  .text3 {
+    margin: 2rem 0;
+  }
+
+  .text4 {
+    padding: 2rem 0;
+  }
+
+  .img1 {
+    padding-top: 4rem;
+  }
+
+  .first {
+    display: block;
+    text-align: center;
+  }
+
+  .img2 img {
+    margin: 0;
+  }
+
+  .second {
+    display: block;
+    text-align: center;
+  }
+
+  .inputs {
+    padding: 0;
+    align-items: center;
+  }
+
+  .input2 {
+    padding: 1rem 4rem;
+  }
+
+  .btn2 {
+    margin: 1rem 0;
+  }
+
+  .container4 {
+    display: block;
+    padding: 0 3rem;
+  }
+
+  .two {
+    border-bottom: 1px solid #808080;
+    padding: 4rem;
+  }
+
+  .three {
+    display: block;
+    text-align: center;
+    padding-top: 3rem;
+    word-spacing: 2rem;
+  }
+}
