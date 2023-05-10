@@ -99,3 +99,64 @@ h1 {
   width: 100%;
   object-fit: cover;
 }
+
+main {
+  background-image: url(./images/bg-curve-desktop.svg);
+  background-position: center;
+  background-size: cover;
+}
+
+.container2 {
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-repeat: no-repeat;
+  padding: 10rem 0;
+}
+
+.text2 {
+  padding: 3rem 0;
+  font-size: 1.5rem;
+}
+
+h2 {
+  padding: 2.5rem 0;
+  font-size: 3rem;
+}
+
+.text2 p {
+  padding: 1.5rem 0;
+}
+
+.text2 a {
+  color: rgb(60, 185, 227);
+  border-bottom: 1px solid rgb(60, 185, 227);
+}
+
+.img2 img {
+  width: 80%;
+  margin: 0 0 5rem 12rem;
+}
+
+.text3 {
+  background-color: white;
+  margin: 5rem;
+  padding: 3rem;
+  border-radius: 2rem;
+  box-shadow: 0 0 10px black;
+}
+
+.name {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding-top: 3rem;
+}
+
+.name img {
+  width: 50%;
+  border-radius: 50%;
+}
